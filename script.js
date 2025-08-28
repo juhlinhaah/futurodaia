@@ -9,8 +9,8 @@ const caixaResultado = document.querySelector(".caixa-resultado):
     enunciado:
     "A IA será capaz de criar soluções inovadoras para problemas
  ambientais complexos?"
-      alternativa: ["sim"]
-      alternativa: ["Não"]
+      alternativa: 
+
 
 
 
