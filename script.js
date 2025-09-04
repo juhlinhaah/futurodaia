@@ -18,7 +18,8 @@ const caixaResultado = document.querySelector(".caixa-resultado);
   },
 
   {
-    enunciado: 'Pergunta 2'
+    enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
+livros ou compor música"?
     caixaAlternativas: [
       "Verdadeiro",
       "Falso",
