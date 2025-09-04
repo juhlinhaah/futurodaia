@@ -13,7 +13,11 @@ const caixaResultado = document.querySelector(".caixa-resultado):
 
       'Alternativa 1 sim',
       'Alternativa 2 não',
+  ]
 
+  },
+  
+  {
 
 
 
