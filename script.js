@@ -16,11 +16,15 @@ const caixaResultado = document.querySelector(".caixa-resultado):
   ]
 
   },
-  
+
   {
-
-
-
+    enunciado: 'Pergunta 2'
+    caixaAlternativas: [
+      "alternativa 1 sim"
+      "alternativa 2 não"
+]
+  }
+  {
 
 
 
