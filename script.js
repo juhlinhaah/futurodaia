@@ -24,7 +24,7 @@ livros ou compor música"?
       "Verdadeiro",
       "Falso",
 ]
-  }
+  },
   {
     enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
 livros ou compor música"?
@@ -33,14 +33,17 @@ livros ou compor música"?
       "Falso",
 
   ]
-  }
+  },
 {
   enunciado: "As maquinas com IA terão a capacidade de tomar decisões éticas completas"?
     caixaAlternativas: [
       "Verdadeiro",
       "Falso",
 ]
-  }
+  },
   {
+    let atual = 0;
+    let perguntaAtual;
+
 
 
