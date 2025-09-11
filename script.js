@@ -59,7 +59,12 @@ livros ou compor música"?
       }
     }
 
-    mostra perguntas();
+    fuction respostaSelecionada(opcaoSelecionada.afirmacoes;
+    historiafinal = afirmacoes;
+atual++;
+    mostraPerguntas():
+  }
+
 
 
 
@@ -85,6 +90,7 @@ livros ou compor música"?
 
       
     
+
 
 
 
