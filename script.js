@@ -49,7 +49,28 @@ livros ou compor música"?
       perguntaAtual = perguntas{atual};
       caixaPergunta.textContent = perguntaAtual.enunciado;
       mostraAlternativas ();
-      
+    }
+
+    function mostraAlternativas() {
+      for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativas;
+        caixaAlternativas.appendChild(botaoAlternativas);
+      }
+    }
+
+    mostra perguntas();
+
+
+
+
+
+
+
+
+
+        
+    
     
       
 
@@ -64,6 +85,7 @@ livros ou compor música"?
 
       
     
+
 
 
 
