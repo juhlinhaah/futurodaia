@@ -8,8 +8,8 @@ const caixaResultado = document.querySelector(".caixa-resultado);
   {
     enunciado:
     "A IA será capaz de criar soluções inovadoras para problemas
- ambientais complexos?",
-      alternativas: {
+ ambientais complexos?"
+      caixaAlternativas: {
 
     "verdadeiro",
     "falso",
@@ -20,14 +20,27 @@ const caixaResultado = document.querySelector(".caixa-resultado);
   {
     enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
 livros ou compor música"?
+    caixaAlternativas: [   
+      "Verdadeiro",
+      "Falso",
+]
+  }
+  {
+    enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
+livros ou compor música"?
+    caixaAlternativas: [
+      "Verdadeiro",
+      "Falso",
+
+  ]
+  }
+{
+  enunciado: "As maquinas com IA terão a capacidade de tomar decisões éticas completas"?
     caixaAlternativas: [
       "Verdadeiro",
       "Falso",
 ]
   }
   {
-
-
-
 
 
