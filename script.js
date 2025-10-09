@@ -10,13 +10,10 @@ const textoResultado = document.querySelector(".caixa-resultado);
     "A IA será capaz de criar soluções inovadoras para problemas
  ambientais complexos?"
       caixaAlternativas: {
-
     "verdadeiro",
     "falso",
   ]
-
-  },
-
+ },
   {
     enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
 livros ou compor música"?
@@ -31,7 +28,6 @@ livros ou compor música"?
     caixaAlternativas: [
       "Verdadeiro",
       "Falso",
-
   ]
   },
 {
@@ -46,24 +42,41 @@ livros ou compor música"?
     let perguntaAtual;
 
     function mostraPergunta() {
-      perguntaAtual = perguntas{atual};
+if (atual >= perguntas.length) {
+  mostraResultado();
+  return;
+}
+      perguntaAtual = perguntas[atual];
       caixaPergunta.textContent = perguntaAtual.enunciado;
+      caixaAlternativas.textContent = "";
       mostraAlternativas ();
     }
-
     function mostraAlternativas() {
       for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativas;
+        botaoAlternativas.textContent = alternativas.texto;
+        botaoAlternativas.addEventListener("click", () =>  resposta);
         caixaAlternativas.appendChild(botaoAlternativas);
       }
     }
 
-    fuction respostaSelecionada(opcaoSelecionada.afirmacoes;
-    historiafinal = afirmacoes;
+    fuction respostaSelecionada(opcaoSelecionada) {
+      const afirmacoes = opcaoSelecionada.afirmacao;
+    historiafinal += afirmacoes + " ";
 atual++;
     mostraPerguntas():
   }
+    function mostraResultado() {
+      caixaAlternativas.textContent = "Em 2049...";
+      textoResultado.textContent = historiaFinal;
+      caixaAlternativa.textContent = " ";
+    }
+    mostraPergunta();
+
+
+
+
+    
 
 
 
@@ -90,6 +103,7 @@ atual++;
 
       
     
+
 
 
 
