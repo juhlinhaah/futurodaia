@@ -1,19 +1,19 @@
-const caixaPrincipal = document.querySelector(".caixa-principal);
-const caixaPerguntas = document.querySelector(".caixa-perguntas);
-const caixaAlternativas = document.querySelector(".caixa-alternativa);
-const caixaResultado = document.querySelector(".caixa-resultado);
-const textoResultado = document.querySelector(".caixa-resultado);
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativa");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".caixa-resultado");
 
   const perguntas = [
   {
     enunciado:
-    "A IA será capaz de criar soluções inovadoras para problemas
- ambientais complexos?"
-      caixaAlternativas: {
+    "A IA será capaz de criar soluções inovadoras para questões
+ ambientais complexas?",
+      caixaAlternativas: [
     "verdadeiro",
-    "falso",
+    "falso"
   ]
- },
+ } 
   {
     enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
 livros ou compor música"?
