@@ -9,7 +9,7 @@ const perguntas = [
         alternativas: ["Sim", "Não"]
     },
     {
-        enunciado: "A IA é sempre 100% segura e impossível de hackear?",
+        enunciado: "A IA substituirá os humanos em tarefas criativas,como escrever?",
         alternativas: ["Sim", "Não"]
     },
     {
