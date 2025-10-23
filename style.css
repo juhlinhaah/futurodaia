@@ -45,7 +45,7 @@ h1 {
 
 button {
     background-color: var(--cor-secundaria);
-    color: rgb(89, 193, 192);
+    color: rgba(17, 25, 25, 0.924);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
