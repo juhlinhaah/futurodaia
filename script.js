@@ -1,113 +1,76 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
-const caixaAlternativas = document.querySelector(".caixa-alternativa");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
-  const perguntas = [
-  {
-    enunciado:
-    "A IA será capaz de criar soluções inovadoras para questões
- ambientais complexas?",
-      caixaAlternativas: [
-    "verdadeiro",
-    "falso"
-  ]
- } 
-  {
-    enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
-livros ou compor música"?
-    caixaAlternativas: [   
-      "Verdadeiro",
-      "Falso",
-]
-  },
-  {
-    enunciado: "A IA substituirá os humanos em tarefas criativas, como escrever 
-livros ou compor música"?
-    caixaAlternativas: [
-      "Verdadeiro",
-      "Falso",
-  ]
-  },
+const perguntas = [
+    {
+        enunciado: " IA vai roubar todos os empregos humanos no futuro? "
+        Alternativas; [
+            "Sim"
+            "Não"
+        ]
+    },
+    {
+    enunciado: " IA vai roubar todos os empregos humanos no futuro? "
+        Alternativas; [
+            "Sim"
+            "Não"
+    ]
+},
 {
-  enunciado: "As maquinas com IA terão a capacidade de tomar decisões éticas completas"?
-    caixaAlternativas: [
-      "Verdadeiro",
-      "Falso",
-]
-  },
-  {
-    let atual = 0;
-    let perguntaAtual;
+    enunciado: " A IA é sempre 100% segura e impossível de hackear? "
+        Alternativas; [
+            "Sim"
+            "Não"
+    ]
+},
+{
+    enunciado: " Jogos de videogame usam IA para tornar inimigos mais inteligentes? "
+        Alternativas; [
+            "Sim"
+            "Não"
+    ]
+},
+{
+    enunciado: " IA pode clonar vozes humanas com alta precisão? "
+        Alternativas; [
+            "Sim"
+            "Não"
+    ]
+},
+];
 
-    function mostraPergunta() {
-if (atual >= perguntas.length) {
-  mostraResultado();
-  return;
+let atual = 0;
+let perguntaAtual;
+let historiaFinal = "";
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
 }
-      perguntaAtual = perguntas[atual];
-      caixaPergunta.textContent = perguntaAtual.enunciado;
-      caixaAlternativas.textContent = "";
-      mostraAlternativas ();
-    }
-    function mostraAlternativas() {
-      for(const alternativa of perguntaAtual.alternativas){
+
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativas.texto;
-        botaoAlternativas.addEventListener("click", () =>  resposta);
-        caixaAlternativas.appendChild(botaoAlternativas);
-      }
+        botaoAlternativas.textContent = alternativa;
+        caixaAlternativas.appendChild(botaoAlternatives);
     }
+}
 
-    fuction respostaSelecionada(opcaoSelecionada) {
-      const afirmacoes = opcaoSelecionada.afirmacao;
-    historiafinal += afirmacoes + " ";
-atual++;
-    mostraPerguntas():
-  }
-    function mostraResultado() {
-      caixaAlternativas.textContent = "Em 2049...";
-      textoResultado.textContent = historiaFinal;
-      caixaAlternativa.textContent = " ";
-    }
+function respostaSelecionada(opcaoSelecionaada){
+    const afirmacoes = opcaoSelecionaada.afirmacoes;
+    histiaFinal = afirmacoes;
+    atual++;
     mostraPergunta();
+}
 
+function mostratResultado() {
+    caixaPerguntas.textContent = "em 2049....";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
 
-
-
-    
-
-
-
-
-
-
-
-
-
-
-        
-    
-    
-      
-
-
-
-
-
-
-
-
-
-
-      
-    
-
-
-
-
-
-
-
-
+mostraPergunta();
