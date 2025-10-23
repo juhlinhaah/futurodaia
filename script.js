@@ -17,7 +17,7 @@ const perguntas = [
         alternativas: ["Sim", "Não"]
     },
     {
-        enunciado: "IA pode clonar vozes humanas com alta precisão?",
+        enunciado: "IA pode clonar vozes humanas?",
         alternativas: ["Sim", "Não"]
     }
 ];
