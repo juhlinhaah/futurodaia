@@ -50,7 +50,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaEnunciado.textContent = "Em 2049...";
+    caixaEnunciado.textContent = "Parabens!! Voce terminou.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.innerHTML = "";
 }
