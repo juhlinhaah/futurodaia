@@ -5,8 +5,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: " IA será capaz de criar soluções inovadoras para questões
- ambientais complexas?",
+        enunciado: " IA será capaz de criar soluções inovadoras?",
         alternativas: ["Sim", "Não"]
     },
     {
