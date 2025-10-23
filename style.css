@@ -1,11 +1,11 @@
-root { 
-    --cor-fundo: #42b7b7b2;
-    --cor-principal: #3ba7b5;
-    --cor-secundaria: #10bf8a;
-    --cor-destaque: #4adab6;
+:root { 
+    --cor-fundo: #cb92eab2;
+    --cor-principal: #e399da;
+    --cor-secundaria: #212333;
+    --cor-destaque: #5a5959;
     --cor-texto: #080808; 
 }
-a
+
 body {  
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -25,18 +25,18 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(13, 12, 12, 0.788);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
 .caixa-perguntas {
-    background-color: rgb(140, 201, 199);
+    background-color: white;
     width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(203, 73, 73, 0.849);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -45,7 +45,7 @@ h1 {
 
 button {
     background-color: var(--cor-secundaria);
-    color: rgba(17, 25, 25, 0.924);
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
